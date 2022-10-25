@@ -1,0 +1,391 @@
+
+*{
+   box-sizing: border-box;
+}
+body{
+   margin: 0;
+}
+/* -----------HEADER-------------- */
+.header{
+   height: 594px;
+   display: grid;
+   grid-template-rows: repeat(2,70px 524px);
+}
+@media(min-width:376px){
+   .header{
+      margin: 10px 80px auto 80px;
+   }
+}
+.navegacion{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+}
+@media(min-width:376px){
+   .navegacion{
+      display: flex;
+      flex-direction: row;
+   }
+}
+.logo{
+   margin: auto 10px auto 10px;
+}
+.logo img{
+   width: 45px;
+   height: 45px;
+}
+@media(min-width:376px){
+   .logo img{
+      width: 75px;
+      height: 70px;
+   }
+}
+.barra{
+   margin: auto 10px auto 10px;  
+}
+@media(min-width:376px){
+   .barra{
+      display: none;
+      
+   }
+}
+.barra img{
+   width: 40PX ;
+   height:40px ;
+
+}
+.enlaces{
+   display: none;
+}
+
+@media(min-width:376px){
+   .enlaces{
+      min-width: 450px;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+   }
+   
+   .enlaces a{
+      color: black;
+      text-decoration: none;
+      font-family: 'Roboto';
+      font-weight: 700;
+      font-size: 24px;
+   }
+}
+
+.otra-navegacion{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+}
+@media(min-width:376px){
+   .otra-navegacion{
+      flex-direction: row;
+      align-items:stretch;
+   }
+}
+.bienvenidos{
+   font-size: 48px;
+   font-weight: 700;
+   font-family: 'Roboto';
+   text-align: center;
+   
+}
+
+@media(min-width:376px){
+   .bienvenidos {
+      display: flex;
+      align-items: center; 
+   }
+}
+.imagen{
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+}
+@media(min-width:376px){
+   .imagen{
+      justify-content: flex-end;
+   }
+}
+.imagen img{
+   width: 318px;
+   height: 300px;
+}
+
+@media(min-width:376px){
+   .imagen img{
+      width: 435px;
+      height: 395px;
+   }
+}
+/* ---------------Sobre Mi -------------------- */
+
+.sobre-mi{
+   height: 538px;
+   background-color: black;
+   color: white;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   padding: 30px 0 30px 0;
+   
+}
+
+@media(min-width:376px){
+   .sobre-mi{
+      flex-direction:row ;
+      justify-content: center;
+      align-items: center;
+   }
+}
+.check{
+   order:1;
+}
+@media(min-width:376px){
+   .check{
+      display: flex;
+      order:0;
+      align-items: center;
+   }
+}
+.check img{
+   height:211px;
+   width:211px;
+
+}
+.description{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+@media(min-width:376px){
+   .description{
+      justify-content: flex-start;
+      align-items: flex-start;
+   }
+}
+.description .titulo {
+   font-size: 32px;
+   font-family: 'Roboto','Open Sans';
+}
+@media(min-width:376px){
+   .description .titulo{
+      text-align: start;
+   }
+}
+.description .comentario{
+   font-size: 16px;
+   width: 312px;
+   text-align: center;
+}
+@media(min-width:376px){
+   .description .comentario{
+      text-align: start;
+      margin: 0;
+   }
+}
+
+/* -------------Servicios---------- */
+
+.servicios{
+   display: flex;
+   flex-direction: column;
+}
+
+.titulo-servicio{
+   font-size: 32px;
+   font-family: 'Roboto','Open Sans';
+   font-weight: 700;
+   text-align: center;
+}
+
+@media(min-width:376px){
+   .articulos{
+      margin-top: 30px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+   }
+   
+}
+.articulos-texto{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin:15px 0 80px 0;
+}
+
+.titulo-articulo{
+   font-size: 24px;
+   font-weight: 700;
+   font-family: 'Roboto';
+   margin: 10px;
+}
+.texto{
+   text-align: center;
+   width: 262px;
+   font-size: 16px;
+   font-weight: 400;
+   margin: 0;
+}
+
+/* ---------------- Formulario-----------------*/
+
+.formulario{
+   background-color: black;
+   color:white;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+@media(min-width:376px){
+   .formulario{
+      display: flex;
+      flex-direction: row;
+      align-items: baseline;
+      justify-content: center;
+      height: 660px;
+      padding-top: 100px;
+   }
+}
+.escribime{
+   font-family: 'Roboto','Open Sans';
+   font-size: 32px;
+   font-weight: 700;
+   
+}
+@media(min-width:376px){
+   .escribime{
+      margin: 0px;
+      margin-right: 50px;
+   }
+
+}
+.rellenar-formulario{
+   display: flex;
+   flex-direction: column;
+   
+}
+
+.label{
+   font-weight: 400;
+   font-size: 16px;
+   margin-bottom: 5px;
+}
+
+.input{
+   width: 335px;
+   height: 45px;
+   font-size: 24px;
+   margin-bottom: 15px;
+}
+@media(min-width:376px){
+   .input{
+      width: 376px;
+   }
+}
+textarea{
+   box-sizing: border-box;
+   height: 113px;
+   width: 335px;
+   font-size: 24px;
+
+}
+@media(min-width:376px){
+   textarea{
+      width: 376px;
+   }
+}
+.boton{
+   margin-top: 40px;
+   margin-bottom: 40px;
+
+}
+
+.btn{
+   font-family: 'Roboto','Open Sans';
+   font-size: 16px;
+   font-weight: 700;
+   width: 335px;
+   height: 45px;
+   background-color:#FFD953;
+   border: none;
+}
+@media(min-width:376px){
+   .btn{
+      width: 376px;
+   }
+}
+
+/* -------------------------- Footer ---------------------*/
+
+.footer{
+   height: 346px;
+   background-color: #eeeeee;
+   display: flex;
+   flex-direction: row
+
+}
+@media(min-width:376px){
+   .footer{
+      justify-content: center;
+      padding-left:  80px ;
+      padding-right:80px;
+   }
+}
+.texto-footer{
+   font-size: 15px;
+}
+
+.icono{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+
+}
+
+.iconos{
+
+   width: auto;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+   justify-content:center ;
+   
+}
+
+.instagram{
+   width: 150px;
+   display: flex;
+   flex-direction: row;
+}
+
+.linkedin{
+   width: 150px;
+   margin-top: 20px;
+   display: flex;
+   flex-direction: row;
+
+}
+
+.github{
+   width: 150px;  
+   margin-top: 20px;
+   display: flex;
+   flex-direction: row;
+}
+
+.imagen{
+   margin-right: 10px;
+}
+
