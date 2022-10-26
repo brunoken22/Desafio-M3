@@ -11,7 +11,7 @@ body{
    display: grid;
    grid-template-rows: repeat(2,70px 524px);
 }
-@media(min-width:376px){
+@media(min-width:750px){
    .header{
       margin: 10px 80px auto 80px;
    }
@@ -22,7 +22,7 @@ body{
    justify-content: space-between;
    align-items: center;
 }
-@media(min-width:376px){
+@media(min-width:750px){
    .navegacion{
       display: flex;
       flex-direction: row;
@@ -35,7 +35,7 @@ body{
    width: 45px;
    height: 45px;
 }
-@media(min-width:376px){
+@media(min-width:750px){
    .logo img{
       width: 75px;
       height: 70px;
@@ -44,7 +44,7 @@ body{
 .barra{
    margin: auto 10px auto 10px;  
 }
-@media(min-width:376px){
+@media(min-width:750px){
    .barra{
       display: none;
       
@@ -59,7 +59,7 @@ body{
    display: none;
 }
 
-@media(min-width:376px){
+@media(min-width:750px){
    .enlaces{
       min-width: 450px;
       display: flex;
@@ -82,7 +82,7 @@ body{
    justify-content: space-between;
    align-items: center;
 }
-@media(min-width:376px){
+@media(min-width:750px){
    .otra-navegacion{
       flex-direction: row;
       align-items:stretch;
@@ -96,7 +96,7 @@ body{
    
 }
 
-@media(min-width:376px){
+@media(min-width:750px){
    .bienvenidos {
       display: flex;
       align-items: center; 
@@ -109,7 +109,7 @@ body{
    align-items: center;
 
 }
-@media(min-width:376px){
+@media(min-width:750px){
    .imagen{
       justify-content: flex-end;
    }
@@ -119,7 +119,7 @@ body{
    height: 300px;
 }
 
-@media(min-width:376px){
+@media(min-width:750px){
    .imagen img{
       width: 435px;
       height: 395px;
@@ -138,7 +138,7 @@ body{
    
 }
 
-@media(min-width:376px){
+@media(min-width:750px){
    .sobre-mi{
       flex-direction:row ;
       justify-content: center;
@@ -148,7 +148,7 @@ body{
 .check{
    order:1;
 }
-@media(min-width:376px){
+@media(min-width:750px){
    .check{
       display: flex;
       order:0;
@@ -166,7 +166,7 @@ body{
    align-items: center;
 }
 
-@media(min-width:376px){
+@media(min-width:750px){
    .description{
       justify-content: flex-start;
       align-items: flex-start;
@@ -176,7 +176,7 @@ body{
    font-size: 32px;
    font-family: 'Roboto','Open Sans';
 }
-@media(min-width:376px){
+@media(min-width:750px){
    .description .titulo{
       text-align: start;
    }
@@ -186,7 +186,7 @@ body{
    width: 312px;
    text-align: center;
 }
-@media(min-width:376px){
+@media(min-width:750px){
    .description .comentario{
       text-align: start;
       margin: 0;
@@ -207,7 +207,7 @@ body{
    text-align: center;
 }
 
-@media(min-width:376px){
+@media(min-width:750px){
    .articulos{
       margin-top: 30px;
       display: flex;
@@ -247,7 +247,7 @@ body{
    flex-direction: column;
    align-items: center;
 }
-@media(min-width:376px){
+@media(min-width:750px){
    .formulario{
       display: flex;
       flex-direction: row;
@@ -263,7 +263,7 @@ body{
    font-weight: 700;
    
 }
-@media(min-width:376px){
+@media(min-width:750px){
    .escribime{
       margin: 0px;
       margin-right: 50px;
@@ -288,7 +288,7 @@ body{
    font-size: 24px;
    margin-bottom: 15px;
 }
-@media(min-width:376px){
+@media(min-width:750px){
    .input{
       width: 376px;
    }
@@ -300,7 +300,7 @@ textarea{
    font-size: 24px;
 
 }
-@media(min-width:376px){
+@media(min-width:750px){
    textarea{
       width: 376px;
    }
@@ -320,7 +320,7 @@ textarea{
    background-color:#FFD953;
    border: none;
 }
-@media(min-width:376px){
+@media(min-width:750px){
    .btn{
       width: 376px;
    }
@@ -335,7 +335,7 @@ textarea{
    flex-direction: row
 
 }
-@media(min-width:376px){
+@media(min-width:750px){
    .footer{
       justify-content: center;
       padding-left:  80px ;
